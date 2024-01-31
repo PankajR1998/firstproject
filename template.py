@@ -11,16 +11,16 @@ list_of_files = [
     'src/components/model_evaluation.py',
     'src/pipeline/__init__.py',
     'src/pipeline/training_pipeline.py',
-    'src/pipeline/prediction_pipeline.py'
+    'src/pipeline/prediction_pipeline.py',
     'src/utils/__init__.py',
     'src/utils/utils.py',
     'src/logger/logging.py',
     'src/exception/exception.py',
     'test/unit/__init__.py',  # used to test each unit
-    'test/unit/integration/__init__.py' # use it test all unit as one.
-    'init.setup.sh',
+    'test/unit/integration/__init__.py', # use it test all unit as one.
+    'init_setup.sh',
     'requirements.txt', # for the production enviroment.
-    'requirements.dev.txt' # for the development enviroment.
+    'requirements_dev.txt', # for the development enviroment.
     'setup.py',
     'setup.config',
     'pyproject.toml',
